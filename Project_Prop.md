@@ -3,7 +3,7 @@
 ## Introduction
 ### Background
 The e-commerce market is showing rapid growth during past decade and this growth is going to continue in the nearest future. However, customer behavior has changed significally and established ways of doing busiess are getting less effective every year. Standart "best" practices were aimed at interacting with segments of customers while now, techologies can allow business to concentrate on exact customer and to interact with him. According to the latest researches from leading world sources, personalization in e-commerce has become one of the strongest influencers on customer experience. Well-tuned personal recommendations can provide high level of customer satisfaction and, consequently, stable increase of revenue, generated on this website. Furthermore, according to Netflix statistics, if user doesn't choose what he/she want to watch in first three minutes of search – he/she will lose interest and leave the website (or the smartphone app) without any actions, within the realities of an e-commerce it means that user will simply leave online shop without any purchase. That is why it is essential to understand clearly how to provide personal recommendation and which tool to use.
-The theoretical objests of this paper will be recomendational systems and variaties of their applicability in e-commerce companies. 
+The theoretical objests of this paper will be recomendational systems and variaties of their applicability in e-commerce companies.  
 ### Problem statement
 As it has already been metioned, personalization has become an important part of online business. Significant increase in data-driven technologies in the last decade led to appearance multiplicity of tools which could help businesses to provide direct recomendations. However, many companies still do not use solutions which can provide the highest efficiency due to the big variaty of them and due to the complexity of their selecting, development and deployment.  
 Due to large amount of data, which every e-commerce company can collect daily, it is becomming extremely tough to find insides in this informational manualy. That is why the necessity in machine learning models, which can perform difficult calculations and predictions in a short time, is increasing rapidly. Certainly it is possible to create personal recomedations without big data in general and machine learning in particular. It is acceptable to use such semi-manual tools when goods, which company sell, are specific and do not have many substitutes. Nevertheless, when the list of subsidaries expands, benifits from such tools decreases drammaticaly. It will take too much time and 
@@ -14,8 +14,10 @@ To achive the goal of the research it is necessary to implement the following ta
 2. To collect data for machine learning models training
 3. To develop demonstation versions of recomendation systems, which will be able to demonstrate their applicability in different business circumstances.
 4. Conduct a comparsion of selected recomendation systems using accuracy, precision and recall metrics.
-5. Based on results, make a list of recommendations for companies' management on choosing the right recomendation system
-
+5. Based on results, make a list of recommendations for companies' management on choosing the right recomendation system.  
 ### Professional significance.
-The research involves the creation of recommendations created on the basis of assesing several recomendation algoritms that companies' management can use in the selecting and deployment process of the recomendation system in their business.
-The study involves the creation of recommendations created on the basis of processing a large amount of data that hotel managers can use in the hotel management, as well as online platforms, to study consumer behavior. The created algorithm is possible for use in related industries (restaurants, cafes, online retail), where users actively leave feedback on services or products.
+The research involves the creation of recommendations created on the basis of assesing several recomendation algoritms that companies' management can use in the selecting and deployment process of the recomendation system in their business. Created models cannot be used as they are in the production
+and are for demonstration purposes only. However, if any of them is re-trained on the real business data - it will be able to provide simple recomendations with moderate accuracy.  
+### Delimitations of the study
+Due to 
+
