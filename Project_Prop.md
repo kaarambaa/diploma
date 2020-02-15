@@ -19,5 +19,7 @@ To achive the goal of the research it is necessary to implement the following ta
 The research involves the creation of recommendations created on the basis of assesing several recomendation algoritms that companies' management can use in the selecting and deployment process of the recomendation system in their business. Created models cannot be used as they are in the production
 and are for demonstration purposes only. However, if any of them is re-trained on the real business data - it will be able to provide simple recomendations with moderate accuracy.  
 ### Delimitations of the study
-Due to 
+Due to the limited number of training datasets, which can be found in the free access, all models, which will be developed during this research, will be trained on the MovieLens dataset. It is a public dataset, which is provided by the University of Minnesota. It consist of 100000 raitings applied to 9000 movies by 600 users and perfectly fits academic purposes. However, owing to the specificity of the data, these models can not be used in the business task without re-training on the data, connected to the exact field.
+## Definitions of key terms
+First of all, it is vital to identify the definition of the customer expierence as the essential purpose of recomendational system implementation into the business. There were numerous of different definitions of customer expiernce Schmitt (1999) " takes a multidimensional view andidentifiesfive types of experiences: sensory (sense), affective(feel), cognitive (think), physical (act), and social-identity(relate) experiences" **820 words** 
 
