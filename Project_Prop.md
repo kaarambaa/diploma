@@ -19,7 +19,43 @@ To achive the goal of the research it is necessary to implement the following ta
 The research involves the creation of recommendations created on the basis of assesing several recomendation algoritms that companies' management can use in the selecting and deployment process of the recomendation system in their business. Created models cannot be used as they are in the production
 and are for demonstration purposes only. However, if any of them is re-trained on the real business data - it will be able to provide simple recomendations with moderate accuracy.  
 ### Delimitations of the study
-Due to the limited number of training datasets, which can be found in the free access, all models, which will be developed during this research, will be trained on the MovieLens dataset. It is a public dataset, which is provided by the University of Minnesota. It consist of 100000 raitings applied to 9000 movies by 600 users and perfectly fits academic purposes. However, owing to the specificity of the data, these models can not be used in the business task without re-training on the data, connected to the exact field.
+Due to the limited number of training datasets, which can be found in the free access, all models, which will be developed during this research, will be trained on the MovieLens dataset. It is a public dataset, which is provided by the University of Minnesota. It consist of 100000 raitings applied to 9000 movies by 600 users and perfectly fits academic purposes. However, owing to the specificity of the data, these models can not be used in the business task without re-training on the data, connected to the particular market.
 ## Definitions of key terms
 First of all, it is vital to identify the definition of the customer expierence as the essential purpose of recomendational system implementation into the business. There were numerous of different definitions of customer expiernce in literature, while the most exhaustive one was given by K. Lemon (2016): "customer experience is a multidimensional construct focusing on a customer’s cognitive, emotional, behavioral, sensorial, and socialresponses to afirm’s offerings during the customer’s entirepurchase journey".
+The second term, which shuld be undercovered is "Machine Learning". Machine learning is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it learn for themselves.
+The third basic concept of this paper is "recomendation systems". 
+## Main body
+### Lirearure review
+Two  main  streams  emerge  for  training  recommender  systems:  collaborative  filtering,which predicts users’ behaviors based on similar users (Bell and Koren, 2007), and content-based filtering,  which builds user and item profiles based on domain knowledge and rec-ommends items with similar profiles (Lang, 1995; Melville et al., 2002).
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Xuan  Bi,  Annie  Qu,  Junhui  Wang,  and  Xiaotong  Shen.   A  group-specific  recommendersystem.Journal of the American Statistical Association, 112(519):1344–1353, 2017.
+
+Robert M Bell and Yehuda Koren. Scalable collaborative filtering with jointly derived neigh-borhood interpolation weights.  In7th  IEEE  International  Conference  on  Data  Mining(ICDM 2007), pages 43–52. IEEE, 2007
+
+Ken Lang. Newsweeder: Learning to filter netnews. InProceedings of the 12th InternationalConference on Machine Learning, pages 331–339, 1995.
+
+Prem Melville, Raymond J Mooney, and Ramadass Nagarajan.  Content-boosted collabo-rative filtering for improved recommendations.AAAI/IAAI, 23:187–192, 2002.
