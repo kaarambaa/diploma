@@ -22,4 +22,23 @@ and are for demonstration purposes only. However, if any of them is re-trained o
 Due to the limited number of training datasets, which can be found in the free access, all models, which will be developed during this research, will be trained on the MovieLens dataset. It is a public dataset, which is provided by the University of Minnesota. It consist of 100000 raitings applied to 9000 movies by 600 users and perfectly fits academic purposes. However, owing to the specificity of the data, these models can not be used in the business task without re-training on the data, connected to the exact field.
 ## Definitions of key terms
 First of all, it is vital to identify the definition of the customer expierence as the essential purpose of recomendational system implementation into the business. There were numerous of different definitions of customer expiernce in literature, while the most exhaustive one was given by K. Lemon (2016): "customer experience is a multidimensional construct focusing on a customer’s cognitive, emotional, behavioral, sensorial, and socialresponses to afirm’s offerings during the customer’s entirepurchase journey".
+THe second termin, which should be undercovered is machine learning.
+
+
+
+Lit review
+
+The following paper will describe recomender systems as a strong influencer on customer loyality. According to [1], the field of recommender systems can be defined as a cognitive system, which collects data from the users' activities logs and provides a set of recommended items. The first recommender system which was able to generate automated predictions was the GroupLens system [Resnick et al. 1994; Konstan et al. 1997]. It provided users with personalized recommendations on Usenet postings. The recommendations for each individual were obtained
+by identifying a neighborhood of similar users and recommending the articles that this group of users found useful.   
+Nowadays there are two core types of recommeder systems:
+- Content-based systems [2] which use the historical data of user's purchases and recommend items, which are similar to those ones which user has already purchased.
+- Collaborative filtering systems [3] which devides customers into clusters according to their preferences and after that recomend items, which relate to the field of interests of each cluster. [1088 words]
+
+
+
+1. Resnick, P., & Varian, H. R. (1997). Recommender systems. Communications of
+the ACM, 40(3), 56-58.
+2.   Tong Zhang, Vijay S. Iyengar Recommender Systems Using Linear Classifiers // Journal of Machine Learning Research . - 2002. - №2. - С. 313 - 334.
+3. Gabor Takacs, Istvan Pilaszy, Bottyan Nemeth, Domonkos Tikk Scalable Collaborative Filtering Approachesfor Large Recommender Systems // Journal of Machine Learning Research . - 2009. - №10. - С. 623 - 656.
+
 
