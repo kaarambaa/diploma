@@ -27,7 +27,8 @@ The third basic concept of this paper is "recommendation systems". This generali
 
 ## Main body
 ### Lirearure review
-The following paper will describe recomender systems as a strong influencer on customer loyality. 
+
+Machine learning is an extensive subsection of artificial intelligence that studies the methods of developing algorithms capable of learning [Muler et al. 2016].
 
 According to [1], the recommender systems can be defined as a cognitive system, which collects data from the users' activities logs and provides a set of recommended items. The first recommender system which was able to generate automated predictions was the GroupLens system [Resnick et al. 1994; Konstan et al. 1997]. It provided personalized recommendations on the huge library of scientific papers. The recommendations for each individual were generaterd by identifying clusters of similar subscribers and suggesting them articles that other members of the group found useful.  
 There are two  core approaches  for creating and training  recommender  systems: content-based filtering,  which creates customers and items profiles based on historical data and recommends items with similar profiles (Lang, 1995; Melville et al., 2002), and collaborative  filtering, which predicts users’ behaviors based on similarity of users' prefferences (Bell and Koren, 2007).
